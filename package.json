@@ -1,0 +1,31 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "my first project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E-K205/project1.git"
+  },
+  "author": "Ety Konski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/E-K205/project1/issues"
+  },
+  "homepage": "https://github.com/E-K205/project1#readme",
+  "dependencies": {
+    "build": "^0.1.4",
+    "express": "^5.1.0",
+    "start": "^5.1.0",
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2"
+  }
+}
